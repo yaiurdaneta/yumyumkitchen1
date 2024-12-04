@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ribeye&family=Ribeye+Marrow&display=swap");
+*{
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif; 
+}
+nav ul {
+  list-style-type: none; 
+  padding: 0; 
+  display: flex; 
+  justify-content:right; 
+  position: relative; 
+  background: rgb(255, 211, 211); 
+}
+nav ul li {
+  margin: 5px; 
+}
+
+nav ul li a {
+  text-decoration: none; 
+  color: rgb(0, 0, 0); 
+  padding: 10px; 
+  display: block;
+ font-family: 'montserrat';
+  font-size: 1.2rem;
+
+}
+
+nav ul li a:hover {
+  background: rgb(255, 120, 41); 
+  border-radius: 10px;
+  transform: scale(1.1);
+  padding: 12px;
+}
+header {
+  background-image: url(pics/img1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  text-align: right;
+  padding-right: 20px;
+  color: rgb(255, 120, 41);
+  position:relative;
+}
+
+h1 {
+  font-family: "Ribeye", serif; 
+  position: absolute;
+  right: 6%;
+  font-size: 3rem;
+  background: rgba(255, 255, 255, 0.808);
+  padding: 10px;
+}
+
+header span {
+  display: block;
+  font-family: "Ribeye Marrow", serif;
+}
+
+h2 {
+  font-family: "Ribeye", serif;
+  padding: 10px;
+}
+section img{ 
+  max-width: 100%;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+}
+
+footer {
+  background-color: rgb(109, 109, 109);
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px;
+}
+main section{
+  flex:1 1 33%;
+  padding: 1%;
+}
